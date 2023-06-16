@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import Bocchi from './Bocchi.gif';
+import Test from './Test.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Test} className="App-logo" alt="logo" />
         <img src={Bocchi} className="App-logo" alt="logo" />
         <p>
-          ecksdee
+          Berputar Seperti Pelek Kami
+          Dari ALLYOURWHEELS
         </p>
         <a
           className="App-link"
