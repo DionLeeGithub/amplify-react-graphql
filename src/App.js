@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import Bocchi from './Bocchi.gif';
 import './App.css';
 
 function App() {
@@ -6,8 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={Bocchi} className="App-logo" alt="logo" />
         <p>
-          Bruh
+          ecksdee
         </p>
         <a
           className="App-link"
