@@ -57,6 +57,7 @@ const App = ({ signOut }) => {
     fetchNotes();
     event.target.reset();
   }
+  
 
   async function deleteNote({ id, name }) {
     const newNotes = notes.filter((note) => note.id !== id);
@@ -72,12 +73,7 @@ const App = ({ signOut }) => {
     
     <View className="App">
       <Heading level={1}>My Notes App</Heading>
-      <View
-  name="image"
-  as="input"
-  type="file"
-  style={{ alignSelf: "end" }}
-/>
+      
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="row" justifyContent="center">
           <TextField
@@ -95,6 +91,12 @@ const App = ({ signOut }) => {
             labelHidden
             variation="quiet"
             required
+          />
+          <View
+            name="image"
+            as="input"
+            type="file"
+            style={{ alignSelf: "end" }}
           />
           <Button type="submit" variation="primary">
             Create Note
