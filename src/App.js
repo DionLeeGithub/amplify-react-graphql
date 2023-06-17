@@ -1,11 +1,19 @@
-import logo from './logo.svg';
 import Bocchi from './Bocchi.gif';
 import Test from './Test.png';
 import './App.css';
+import {
+  withAuthenticator,
+  Button,
+  Heading,
+  Image,
+  View,
+  Card,
+} from "@aws-amplify/ui-react";
 
-function App() {
+function App({ signOut }) {
   return (
-    <div className="App">
+    <View className="App">
+      
       <header className="App-header">
         <img src={Test} className="App-logo" alt="logo" />
         <img src={Bocchi} className="App-logo" alt="logo" />
@@ -21,9 +29,10 @@ function App() {
         >
           Learn React
         </a>
+        <Button onClick={signOut}>Sign Out</Button>
       </header>
-    </div>
+    </View>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
