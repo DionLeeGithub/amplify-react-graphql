@@ -1,12 +1,18 @@
 import React from "react";
+import ComLog from '../../Images/WheelsLogo-Clean.png';
+import '../../App.css';
 import { Nav, NavLink, NavMenu }
     from "./NavbarElements";
+import "../../Style.css"
  
 const Navbar = () => {
     return (
         <>
             <Nav>
                 <NavMenu>
+                <   NavLink to="/" activeStyle>
+                <img src={ComLog} className="LogoPic" alt="logo" />
+                    </NavLink>
                     <NavLink to="/about" activeStyle>
                         About
                     </NavLink>

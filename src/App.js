@@ -8,11 +8,13 @@ import About from './pages/about';
 import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
 import Contact from './pages/contact';
+import Footer from './Components/Navbar/Footer';
  
 function App() {
     return (
         <Router>
             <Navbar />
+            
             <Routes>
                 <Route exact path='/' exact element={<Home />} />
                 <Route path='/about' element={<About />} />
@@ -20,8 +22,10 @@ function App() {
                 <Route path='/blogs' element={<Blogs />} />
                 <Route path='/sign-up' element={<SignUp />} />
             </Routes>
+            <Footer />
         </Router>
     );
 }
+
  
 export default App;
