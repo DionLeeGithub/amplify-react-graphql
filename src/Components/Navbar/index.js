@@ -8,25 +8,47 @@ import "../../Style.css"
 const Navbar = () => {
     return (
         <>
-            <Nav>
+            <replacednav className="RepNav">
                 <NavMenu>
                 <   NavLink to="/" activeStyle>
                 <img src={ComLog} className="LogoPic" alt="logo" />
                     </NavLink>
+                    <sidenav className="SideNavStyle">
                     <NavLink to="/about" activeStyle>
-                        About
-                    </NavLink>
-                    <NavLink to="/contact" activeStyle>
-                        Contact Us
+                        <onhover>
+                        Showcase
+                        </onhover>
                     </NavLink>
                     <NavLink to="/blogs" activeStyle>
-                        Blogs
+                        <onhover>
+                        Our Location
+                        </onhover>
+                    </NavLink>
+                    <NavLink to="/contact" activeStyle>
+                        <onhover>
+                        Contact Us
+                        </onhover>
                     </NavLink>
                     <NavLink to="/sign-up" activeStyle>
-                        Sign Up
-                    </NavLink>
+                         <onhover>
+                        About Us
+                        </onhover>
+                    </NavLink>  
+                    <NavLink to="/sign-up" activeStyle>
+                         <onhover>
+                        Our Work
+                        </onhover>
+                    </NavLink>  
+                    </sidenav>
+                    
                 </NavMenu>
-            </Nav>
+                <   NavLink to="https://www.tokopedia.com/allyourwheels" target="_blank" activeStyle>
+                        <onhover>
+                <img src={require('../../Images/Shop.png')} className="BuyPic" alt="logo" />
+                        </onhover>
+                    </NavLink>
+            </replacednav>
+            
         </>
     );
 };
