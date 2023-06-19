@@ -7,15 +7,17 @@ Column,
 FooterLink,
 Heading,
 } from "./FooterStyles";
+import { Nav, NavLink, NavMenu } from "./NavbarElements";
+import "../../Style.css";
 
 const Footer = () => {
 return (
 	<Box>
-	<h1 style={{ color: "green",
-				textAlign: "center",
-				marginTop: "-50px" }}>
-		ALLYOURWHEELS ARE BELONG TO US
-	</h1>
+		< NavLink to="/" activeStyle>
+		<img src={require('../../Images/WheelsLogo-Dark.png')} className="LogoPic BotLogoPic" alt="logo" />
+        </NavLink>
+		
+<div class="vl"></div>
 	<Container>
 		<Row>
 		<Column>

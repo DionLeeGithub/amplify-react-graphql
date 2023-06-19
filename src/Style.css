@@ -54,7 +54,13 @@ onhover:hover {
     display: block;
     align-content:flex-start;
     border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
+
+.BotLogoPic {
+  margin-left: 150px;
+}
 
 .BuyPic {
     max-width: 40px;
@@ -63,6 +69,10 @@ onhover:hover {
     display: block;
     clear: right;
     float:right
+  }
+
+.vl {
+    border-top: 2px solid aliceblue;
   }
 
 .ShowPic {

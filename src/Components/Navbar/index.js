@@ -3,7 +3,7 @@ import ComLog from '../../Images/WheelsLogo-Clean.png';
 import '../../App.css';
 import { Nav, NavLink, NavMenu }
     from "./NavbarElements";
-import "../../Style.css"
+import "../../Style.css";
  
 const Navbar = () => {
     return (
@@ -21,22 +21,22 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink to="/blogs" activeStyle>
                         <onhover>
-                        Our Location
+                        Lokasi
                         </onhover>
                     </NavLink>
                     <NavLink to="/contact" activeStyle>
                         <onhover>
-                        Contact Us
+                        Kontak
                         </onhover>
                     </NavLink>
                     <NavLink to="/sign-up" activeStyle>
                          <onhover>
-                        About Us
+                        Tentang Kami
                         </onhover>
                     </NavLink>  
                     <NavLink to="/sign-up" activeStyle>
                          <onhover>
-                        Our Work
+                        Galeri
                         </onhover>
                     </NavLink>  
                     </sidenav>

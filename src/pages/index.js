@@ -6,7 +6,6 @@ const Home = () => {
 	return (
 		<div>
 			<h1>
-            <img src={TestPic} className="HomePic"/>
 			<h1 className="BigTitle">
 				Velg Showcase
 			</h1>
