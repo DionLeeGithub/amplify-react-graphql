@@ -1,16 +1,13 @@
 import React from "react";
 import ComLog from '../../Images/WheelsLogo-Clean.png';
 import '../../App.css';
-import { Nav, NavLink, NavMenu, Bars, NavBtn, NavBtnLink }
+import { Nav, NavLink, NavMenu }
     from "./NavbarElements";
 import "../../Style.css";
-
  
 const Navbar = () => {
     return (
         <>
-        <Nav>
-        <Bars />
             <replacednav className="RepNav">
                 <NavMenu>
                 <   NavLink to="/" activeStyle>
@@ -51,7 +48,7 @@ const Navbar = () => {
                         </onhover>
                     </NavLink>
             </replacednav>
-            </Nav>
+            
         </>
     );
 };

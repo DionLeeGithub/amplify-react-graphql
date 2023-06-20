@@ -1,10 +1,13 @@
 import React from "react";
-import TestPic from '../Test.png';
 import "../Style.css"
 
 const Home = () => {
+	
 	return (
 		<div>
+			<div>
+			<video class="HomepageVideo" autoplay="autoplay" muted="muted" playsinline="playsinline" loop="loop" src="https://myvideobucketpog.s3.ap-southeast-1.amazonaws.com/Bread+falling+on+Pomu.mp4"></video>
+			</div>
 			<h1>
 			<h1 className="BigTitle">
 				Velg Showcase
