@@ -5,6 +5,7 @@ padding: 0px 80px;
 background: black;
 bottom: 0;
 width: 100%;
+opacity: 0.9;
 
 
 @media (max-width: 1000px) {
@@ -16,7 +17,7 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 	 background: black; 
 `
@@ -32,7 +33,7 @@ export const Row = styled.div`
 display: grid;
 grid-template-columns: repeat(auto-fill,
 						minmax(185px, 1fr));
-grid-gap: 20\px;
+grid-gap: 80\px;
 
 @media (max-width: 1000px) {
 	grid-template-columns: repeat(auto-fill,
@@ -44,6 +45,7 @@ export const FooterLink = styled.a`
 color: #fff;
 margin-bottom: 20px;
 font-size: 18px;
+opacity:0.5;
 text-decoration: none;
 
 &:hover {
@@ -52,9 +54,17 @@ text-decoration: none;
 }
 `;
 
-export const Heading = styled.p`
-font-size: 24px;
+export const FooterLinkWT = styled.a`
 color: #fff;
-margin-bottom: 40px;
+margin-bottom: 20px;
+font-size: 16px;
+opacity:0.5;
+text-decoration: none;
+`;
+
+export const Heading = styled.p`
+font-size: 30px;
+color: #fff;
+margin-bottom: 20px;
 font-weight: bold;
 `;

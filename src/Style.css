@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .HomePic {
     max-width: 0.8%;
     height: auto;
@@ -24,6 +29,7 @@ onhover {
 onhover:hover {
   border-color: black;
   }
+  
 
 .RepNav {
   height: 85px;
@@ -58,8 +64,55 @@ onhover:hover {
     padding-bottom: 20px;
   }
 
-.BotLogoPic {
-  margin-left: 150px;
+.SpecialImage {
+  height: 150px;
+  width: 250px;
+}
+
+footext {
+  position: absolute;
+  top: 100px;
+  left: 16px;
+  font-size: 16px;
+opacity:0.5;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+fakecolumn {
+  display: flex;
+flex-direction: column;
+text-align: left;
+color: #fff;
+margin-bottom: 20px;
+text-decoration: none;
+}
+
+.FooterText {
+  color: #fff;
+margin-bottom: 20px;
+font-size: 13px;
+text-decoration: none;
+font-weight: 500;
+text-align: center;
+opacity: 0.8;
+}
+
+.TextImage {
+  width: 35px;
+  margin-right: 10px;
+  
+}
+
+textimagetext {
+  padding-bottom: 20px;
+  position: relative;
+bottom: 10px;
 }
 
 .BuyPic {
@@ -73,6 +126,7 @@ onhover:hover {
 
 .vl {
     border-top: 2px solid aliceblue;
+    max-width: 1200px;
   }
 
 .ShowPic {

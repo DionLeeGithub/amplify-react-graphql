@@ -5,39 +5,38 @@ Container,
 Row,
 Column,
 FooterLink,
+FooterLinkWT,
 Heading,
 } from "./FooterStyles";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
 import "../../Style.css";
 
+
 const Footer = () => {
 return (
 	<Box>
-		< NavLink to="/" activeStyle>
-		<img src={require('../../Images/WheelsLogo-Dark.png')} className="LogoPic BotLogoPic" alt="logo" />
-        </NavLink>
-		
-<div class="vl"></div>
 	<Container>
 		<Row>
+		<div class="container">
+		<fakecolumn>
+		<img src={require('../../Images/WheelsLogo-Dark.png')} className="LogoPic SpecialImage" alt="logo" />
+		<footext>
+			<p>
+			Lorem Ipsum blablabalbalbalab	
+			</p>
+		</footext>
+		</fakecolumn>
+		</div>
+		
 		<Column>
-			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
+			<Heading>Head Office</Heading>
+			<FooterLinkWT>Ruko Mendrisio 3 C no.18, Jl. Boulevard Illago Raya Gading Serpong, Cihuni, Kec. Pagedangan, Kabupaten Tangerang, Banten 15332</FooterLinkWT>
 		</Column>
 		<Column>
-			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
-		</Column>
-		<Column>
-			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
+			<Heading>Hubungi Kami</Heading>
+			<FooterLink href="https://api.whatsapp.com/send?phone=628111720216" target="_blank"><img src={require('../../Images/PogWa.png')} className="TextImage" alt="logo" /><textimagetext>Kevin</textimagetext></FooterLink>
+			<FooterLink href="#">Pratama</FooterLink>
+			<FooterLink href="#">Simanjuntak</FooterLink>
 			<FooterLink href="#">Mumbai</FooterLink>
 		</Column>
 		<Column>
@@ -72,7 +71,9 @@ return (
 			</FooterLink>
 		</Column>
 		</Row>
+	<ul className="FooterText" href="#">©2023 ALLYOURWHEELS. All Rights Reserved.</ul>
 	</Container>
+	
 	</Box>
 );
 };
