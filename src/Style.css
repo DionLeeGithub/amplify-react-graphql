@@ -144,11 +144,13 @@ bottom: 10px;
 
 .ShowPic {
     max-width: 400px;
-    height: 300px;
+    max-height: 400px;
     pointer-events: none;
     box-shadow: 0px 0px 10px purple;
     margin-left: 80px;
   margin-right: auto;
+  position: relative;
+  z-index: 3;
   }
 
 .BannerFront {
@@ -171,8 +173,9 @@ z-index: -1;
     margin-bottom: 10px;
     text-transform: uppercase;
     font-weight: 700;
-    
   color: white;
+  position: relative;
+  z-index: 3 ;
   }
 
   .BigTitleDesc {
@@ -185,8 +188,36 @@ z-index: -1;
     margin-bottom: 200px;
     text-transform: uppercase;
     font-weight: 700;
-    
   color: white;
+  position: relative;
+  z-index: 3 ;
+  }
+
+  .HomepageLayers {
+    z-index: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+background-image: url("./Images/CurveDots.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+opacity: 0.2;
+margin-top: 70px
+  }
+
+  .HomepageLayersSecond {
+    z-index: 1;
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+background: radial-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .8) 50%, rgba(0, 0, 0, 1) 100%);
+opacity: 0.65;
+margin-top: 70px
   }
 
   @keyframes glow {
@@ -246,6 +277,7 @@ margin-right: auto;
   background-color: white;
   top: 0;
   position: fixed;
+  z-index: 5;
 }
 
 

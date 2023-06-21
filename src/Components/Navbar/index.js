@@ -35,7 +35,7 @@ const Navbar = () => {
                     
               </li>
               <li>
-              <NavLink to="/blogs" activeStyle>
+              <NavLink to="https://www.google.com/maps/place/ALLYOURWHEELS/@-6.2685673,106.6310378,15z/data=!4m6!3m5!1s0x2e69f9ceacba3545:0xb86c65efcda912d7!8m2!3d-6.2685673!4d106.6310378!16s%2Fg%2F11pcrnsmmx?entry=ttu" target="_blank" activeStyle>
                         <onhover>
                         Lokasi
                         </onhover>
