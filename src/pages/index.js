@@ -11,10 +11,12 @@ const Home = () => {
 			<h2 className="BigTitle">
 			Pelek kami legendaris.
 			</h2>
-			<div className="BigTitleDesc">
-				Ngeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-				eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeng~
-			</div>
+			<h2 className="BigTitleDesc">
+				Ngeeeeeeeeeeeeeeeeeee
+				eeeeeeeeeeeeeeeeeeeeee
+				eeeeeeeeeeeeeeeeeeeeeee
+				eeeeeeeeeeeeeeeeeeeeeng~
+			</h2>
 			<h1>
 			<img src= {require('../Images/Pelak One.png')} className="ShowPic"/>
 			<img src= {require('../Images/Pelak Two.png')} className="ShowPic"/>
