@@ -1,12 +1,83 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ComLog from '../../Images/WheelsLogo-Clean.png';
 import '../../App.css';
-import { Nav, NavLink, NavMenu, Bars, NavBtn, NavBtnLink }
-    from "./NavbarElements";
+import { Nav, NavLink, NavMenu, Bars, NavBtn, NavBtnLink } from "./NavbarElements";
 import "../../Style.css";
 
- 
 const Navbar = () => {
+    const [showNavbar, setShowNavbar] = useState(false)
+  
+    const handleShowNavbar = () => {
+      setShowNavbar(!showNavbar)
+    }
+  
+    return (
+      <nav className="navbar">
+        <div className="container">
+          <div className="logo">
+          <   NavLink to="/" activeStyle>
+                <img src={ComLog} className="LogoPic" alt="logo" />
+                    </NavLink>
+          </div>
+          <div className="menu-icon" onClick={handleShowNavbar}>
+          <img src={require('../../Images/Drop.png')} className="DropPic" alt="logo" />
+          </div>
+          <div className={`nav-elements  ${showNavbar && 'active'}`}>
+          <sidenav className="SideNavStyle">
+            <ul>
+              <li>
+              
+                    <NavLink to="/about" activeStyle>
+                        <onhover>
+                        Showcase
+                        </onhover>
+                    </NavLink>
+                    
+              </li>
+              <li>
+              <NavLink to="/blogs" activeStyle>
+                        <onhover>
+                        Lokasi
+                        </onhover>
+                    </NavLink>
+              </li>
+              <li>
+              <NavLink to="/contact" activeStyle>
+                        <onhover>
+                        Layanan
+                        </onhover>
+                    </NavLink>
+              </li>
+              <li>
+              <NavLink to="/sign-up" activeStyle>
+                         <onhover>
+                        Tentang Kami
+                        </onhover>
+                        </NavLink>
+              </li>
+              <li>
+              <NavLink to="https://drive.google.com/drive/u/0/folders/19wQMZCu6qGv9uFR3rjejBcP9RkmUi7al" target="_blank" activeStyle>
+                         <onhover>
+                        Galeri
+                        </onhover>
+                    </NavLink>  
+              </li>
+            </ul>
+            
+            </sidenav>
+          </div>
+        </div>
+        <   NavLink to="https://www.tokopedia.com/allyourwheels" target="_blank" activeStyle>
+                        <onhover>
+                <img src={require('../../Images/Shop.png')} className="BuyPic" alt="logo" />
+                        </onhover>
+                    </NavLink>
+      </nav>
+    )
+  }
+  
+  export default Navbar
+/*const Navbar = () => {
     return (
         <>
         <Nav>
@@ -29,7 +100,7 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink to="/contact" activeStyle>
                         <onhover>
-                        Kontak
+                        Layanan
                         </onhover>
                     </NavLink>
                     <NavLink to="/sign-up" activeStyle>
@@ -37,7 +108,7 @@ const Navbar = () => {
                         Tentang Kami
                         </onhover>
                     </NavLink>  
-                    <NavLink to="/sign-up" activeStyle>
+                    <NavLink to="https://drive.google.com/drive/u/0/folders/19wQMZCu6qGv9uFR3rjejBcP9RkmUi7al" target="_blank" activeStyle>
                          <onhover>
                         Galeri
                         </onhover>
@@ -56,4 +127,4 @@ const Navbar = () => {
     );
 };
  
-export default Navbar;
+export default Navbar; */

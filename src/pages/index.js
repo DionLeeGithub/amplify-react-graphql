@@ -6,13 +6,15 @@ const Home = () => {
 	return (
 		<div>
 			<div>
-			<video class="HomepageVideo" autoplay="autoplay" muted="muted" playsinline="playsinline" loop="loop" src="https://myvideobucketpog.s3.ap-southeast-1.amazonaws.com/Bread+falling+on+Pomu.mp4"></video>
+			<video class="HomepageVideo" autoplay="autoplay" muted="muted" playsinline="playsinline" loop="loop" src="https://myvideobucketpog.s3.ap-southeast-1.amazonaws.com/BannerVid.mp4"></video>
 			</div>
-			<h1>
-			<h1 className="BigTitle">
-				Velg Showcase
-			</h1>
-			</h1>
+			<h2 className="BigTitle">
+			Pelek kami legendaris.
+			</h2>
+			<div className="BigTitleDesc">
+				Ngeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+				eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeng~
+			</div>
 			<h1>
 			<img src= {require('../Images/Pelak One.png')} className="ShowPic"/>
 			<img src= {require('../Images/Pelak Two.png')} className="ShowPic"/>

@@ -17,12 +17,12 @@ return (
 	<Box>
 	<Container>
 		<Row>
-		<div class="container">
+		<div class="containeree">
 		<fakecolumn>
 		<img src={require('../../Images/WheelsLogo-Dark.png')} className="LogoPic SpecialImage" alt="logo" />
 		<footext>
 			<p>
-			Lorem Ipsum blablabalbalbalab	
+			ALLYOURWHEELS hadir sebagai solusi buat semua sobat pecinta otomotif di Indonesia, siap mendukung modifikasi khususnya sektor velg dan ban mobil, juga beragam sektor modifikasi lainnya dalam jangka panjang.
 			</p>
 		</footext>
 		</fakecolumn>
@@ -34,13 +34,13 @@ return (
 		</Column>
 		<Column>
 			<Heading>Hubungi Kami</Heading>
-			<FooterLink href="https://api.whatsapp.com/send?phone=628111720216" target="_blank"><img src={require('../../Images/PogWa.png')} className="TextImage" alt="logo" /><textimagetext>Kevin</textimagetext></FooterLink>
-			<FooterLink href="#">Pratama</FooterLink>
-			<FooterLink href="#">Simanjuntak</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
+			<FooterLink href="https://api.whatsapp.com/send?phone=628122233326" target="_blank"><img src={require('../../Images/PogWa.png')} className="TextImage" alt="logo" /><textimagetext>ALLYOURWHEELS</textimagetext></FooterLink>
+			<FooterLink href="https://api.whatsapp.com/send?phone=628111720216" target="_blank"><img src={require('../../Images/PogWa.png')} className="TextImage" alt="logo" /><textimagetext>CatVelg.id</textimagetext></FooterLink>
+			<FooterLink href="https://www.instagram.com/allyourwheels/?hl=en" target="_blank"><img src={require('../../Images/Inst.png')} className="TextImage" alt="logo" /><textimagetext>Instagram</textimagetext></FooterLink>
+			<FooterLink href="https://www.tokopedia.com/allyourwheels" target="_blank"><img src={require('../../Images/Tokpe.png')} className="TextImage" alt="logo" /><textimagetext>Tokopedia</textimagetext></FooterLink>
 		</Column>
 		<Column>
-			<Heading>Social Media</Heading>
+			<Heading>Partner Kami</Heading>
 			<FooterLink href="#">
 			<i className="fab fa-facebook-f">
 				<span style={{ marginLeft: "10px" }}>
