@@ -29,6 +29,22 @@ const Home = () => {
 			<img src= {require('../Images/Velg One.png')} className="ShowPic"/>
 			<img src= {require('../Images/Velg Two.png')} className="ShowPic"/>
 			</h1>
+
+			<section id="slideshow">
+      <div class="entire-content">
+        <div class="content-carrousel">
+          <figure class="shadow"><img src={require('../Images/Pelak One.png')}/></figure>
+          <figure class="shadow"><img src={require('../Images/Pelak Two.png')}/></figure>
+          <figure class="shadow"><img src={require('../Images/Pelak Three.png')}/></figure>
+          <figure class="shadow"><img src={require('../Images/Velg One.png')}/></figure>
+          <figure class="shadow"><img src={require('../Images/Velg Two.png')}/></figure>
+          <figure class="shadow"><img src={require('../Images/Pelak One.png')}/></figure>
+          <figure class="shadow"><img src={require('../Images/Pelak Two.png')}/></figure>
+          <figure class="shadow"><img src={require('../Images/Pelak Three.png')} /></figure>
+          <figure class="shadow"><img src={require('../Images/Velg Two.png')}/></figure>
+    </div>
+  </div>
+</section>
 		</div>
 	);
 	
