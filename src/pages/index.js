@@ -15,15 +15,19 @@ const Home = () => {
 			<div class="HomepageLayers"></div>
 			<div class="HomepageLayersSecond"></div>
 			</div>
+			<div className="containeree">
 			<h2 className="BigTitle">
 			Pelek kami legendaris.
 			</h2>
 			<h2 className="BigTitleDesc">
-				Ngeeeeeeeeeeeeeeeeeee
-				eeeeeeeeeeeeeeeeeeeeee
-				eeeeeeeeeeeeeeeeeeeeeee
-				eeeeeeeeeeeeeeeeeeeeeng~
+			Vroooom vrooooom ngeeeeeeeeeeng woooooooosh ngeeeeeeeeng skrrrrrttttttt.
 			</h2>
+			</div>
+			<div className="containeree VelgShowcaseBgpic">
+				<h2 className="BigTitle VelgShowcase">
+			Pelek kami legendaris.
+			</h2>
+			</div>
 			
 				
 					<MySliderComponent/>

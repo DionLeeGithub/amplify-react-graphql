@@ -44,14 +44,14 @@ const MySliderComponent = () => {
           <div className="swiper-slide swiper-slide-two">
             <div className="swiper-image" data-swiper-parallax-y="-20%">
               <div className="swiper-image-inner swiper-image-left swiper-image-three">
-                <h1>The <span className="emphasis">Drop</span>. <br /><span>Of Eternal life.</span></h1>
-                <p>Chapter II, page VII</p>
+                <h1>The <span className="emphasis">Bocchi</span>. <br /><span>Of Eternal Pain.</span></h1>
+                <p>Bocchi The Rock</p>
               </div>
             </div>
             <div className="swiper-image" data-swiper-parallax-y="35%">
               <div className="swiper-image-inner swiper-image-right swiper-image-four">
                 <p className="paragraph">
-                  A thirsty Crow found a Pitcher with some water in it, but so little was there that, try as she might, she could not reach it with her beak, and it seemed as though she would die of thirst within sight of the remedy.
+                  Me too Bocchi, Me too...
                 </p>
               </div>
             </div>
