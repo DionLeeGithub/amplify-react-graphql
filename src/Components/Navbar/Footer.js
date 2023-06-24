@@ -19,7 +19,7 @@ return (
 		<Row>
 		<div class="containeree">
 		<fakecolumn>
-		<img src={require('../../Images/WheelsLogo-Dark.png')} className="LogoPic SpecialImage" alt="logo" />
+		<img src={require('../../Images/WheelsLogo-Dark.png')} className="SpecialImage" alt="logo" />
 		<footext>
 			<p>
 			ALLYOURWHEELS hadir sebagai solusi buat semua sobat pecinta otomotif di Indonesia, siap mendukung modifikasi khususnya sektor velg dan ban mobil, juga beragam sektor modifikasi lainnya dalam jangka panjang.

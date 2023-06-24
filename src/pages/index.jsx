@@ -4,6 +4,7 @@ import "../Style.css"
 import MySliderComponent from '../hooks/showsleed';
 import 'swiper/css';
 import JohnApp from "../hooks/johnapp";
+import John from "../hooks/johnthumb";
 
 const Home = () => {
 	
@@ -27,16 +28,33 @@ const Home = () => {
 			</div>
 			<div className="containeree VelgShowcaseBgpic">
 				<h2 className="BigTitle VelgShowcase">
-			Pelek kami legendaris.
+			Slideshow Pelek Satu
 			</h2>
 			</div>
 			
 				<div>
 					<MySliderComponent/>
 				</div>
-
+				<div className="containereeDiJohnAgain">
+				<img src={require('../Images/FirstSlideBG.png')} className="DiJohnAppBG" />
+				
+				<div className="containereeDiJohn">
+			<h2 className="DiJohnTitle">
+			Pelelelelek Lejen
+			</h2>
+			<h2 className="DiJohnText">
+			Vroooom vrooooom ngeeeeeeeeeeng woooooooosh ngeeeeeeeeng skrrrrrttttttt.
+			</h2>
+			</div>
 				<div className="DijohnApp">
 				<JohnApp />
+				</div>
+				</div>
+
+				<div className="containeree">
+				<div className="Johnspecial">
+				<John/>
+				</div>
 				</div>
 		</div>
 		

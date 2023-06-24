@@ -72,14 +72,15 @@ onhover:hover {
   }
 
 .SpecialImage {
-  height: 150px;
-  width: 250px;
+width: 300px;
+height: auto;
+pointer-events: none;
+display: block;
+margin-top: 20px;
 }
 
 footext {
-  position: absolute;
-  top: 120px;
-  left: 10px;
+  margin-top: -10px;
   font-size: 16px;
 opacity:0.5;
 }
@@ -92,12 +93,11 @@ opacity:0.5;
   max-width: 1234px;
   margin-left: auto;
 margin-right: auto;
-padding-left: 24px;
-padding-right: 24px;
 }
 
 .containeree .VelgShowcase {
   text-align: center;
+  font-size: 56px;
   margin-top: 0;
   display: block;
   padding-left: 220px;
@@ -1444,13 +1444,69 @@ button.swiper-pagination-bullet {
 
 .DijohnApp {
   position: relative;
-  max-width: 1000vw;
+  max-width: 60vw;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0 auto;
   padding: 0;
 }
+
+.containereeDiJohnAgain {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+}
+
+.DiJohnAppBG {  
+position: relative;
+margin-bottom: -250px;
+width: 110%;
+max-height: 500px;
+z-index: -1;
+overflow: hidden ;
+}
+
+.DiJohnTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 56px;
+  height: 150px;
+  line-height: 78px;
+  text-align: left;
+  margin-top: -220px;
+  margin-bottom: -75px;
+  text-transform: uppercase;
+  text-align: center;
+color: white;
+position: relative;
+z-index: 3 ;
+}
+
+.DiJohnText {
+  font-size: 14px;
+  font-family:  Helvetica, Arial;
+  height: 150px;
+  line-height: 26px;
+  margin-top: 10px;
+  font-weight: 100;
+color: white;
+position: relative;
+z-index: 3 ;
+}
+
+.containereeDiJohn {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 1234px;
+  margin-left: auto;
+margin-right: auto;
+padding-left: 24px;
+padding-right: 24px;
+
+}
+
 
 .DijohnApp .swiper {
   padding-top: 50px;
@@ -1462,11 +1518,12 @@ button.swiper-pagination-bullet {
 .DijohnApp .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
-  background-color: transparent;
+  width: 25%;
+  height: 25%;
+  background-color: transparent !important; 
   
 }
+
 
 .swiper-slide img {
   display: block;
@@ -1479,3 +1536,4 @@ button.swiper-pagination-bullet {
 .DijohnApp .swiper-slide .swiper-slide-shadow-right {
   background-image: none;
 }
+
