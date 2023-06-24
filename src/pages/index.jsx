@@ -1,7 +1,9 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import "../Style.css"
 import MySliderComponent from '../hooks/showsleed';
 import 'swiper/css';
+import JohnApp from "../hooks/johnapp";
 
 const Home = () => {
 	
@@ -29,10 +31,13 @@ const Home = () => {
 			</h2>
 			</div>
 			
-				
+				<div>
 					<MySliderComponent/>
-				
-			
+				</div>
+
+				<div className="DijohnApp">
+				<JohnApp />
+				</div>
 		</div>
 		
 	);
