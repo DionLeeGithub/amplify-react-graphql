@@ -23,7 +23,8 @@ const Home = () => {
 			ALLYOURWHEELS
 			</h2>
 			<h2 className="BigTitleDesc">
-			Modifikasi proper dimulai dari Velg.
+			<span className="Bold">	Modifikasi proper dimulai dari Velg.</span><br/>
+			Kami hadir sebagai solusi bagi para pencinta otomotif, khususnya di bidang Velg dan Ban mobil.
 			</h2>
 			</div>
 			<div className="containeree VelgShowcaseBgpic">
