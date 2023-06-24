@@ -20,10 +20,10 @@ const Home = () => {
 			</div>
 			<div className="containeree">
 			<h2 className="BigTitle">
-			Pelek kami legendaris.
+			ALLYOURWHEELS
 			</h2>
 			<h2 className="BigTitleDesc">
-			Vroooom vrooooom ngeeeeeeeeeeng woooooooosh ngeeeeeeeeng skrrrrrttttttt.
+			Modifikasi proper dimulai dari Velg.
 			</h2>
 			</div>
 			<div className="containeree VelgShowcaseBgpic">
