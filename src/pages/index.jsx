@@ -37,7 +37,7 @@ const Home = () => {
 					<MySliderComponent/>
 				</div>
 				<div className="containereeDiJohnAgain">
-				<img src={require('../Images/FirstSlideBG.png')} className="DiJohnAppBG" />
+				
 				
 				<div className="containereeDiJohn">
 			<h2 className="DiJohnTitle">
@@ -52,9 +52,11 @@ const Home = () => {
 				</div>
 				</div>
 
+				<div className="Notagainjohn">
 				<div className="containereejohn">
 				<div className="Johnspecial">
 				<John />
+				</div>
 				</div>
 				</div>
 

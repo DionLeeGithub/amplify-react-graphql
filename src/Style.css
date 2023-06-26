@@ -666,7 +666,6 @@ p.paragraph {
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: #fff;
   overflow: hidden;
   display: flex;
   
@@ -1459,7 +1458,9 @@ button.swiper-pagination-bullet {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100vh; /* Adjust as needed */
+  background-image: url("./Images/FirstSlideBG.png") ;
+  background-repeat: no-repeat;
+  background-size:120% 90%;
 }
 
 .DiJohnAppBG {  
@@ -1477,7 +1478,6 @@ overflow: hidden ;
   height: 150px;
   line-height: 78px;
   text-align: left;
-  margin-top: -220px;
   margin-bottom: -75px;
   text-transform: uppercase;
   text-align: center;
@@ -1512,7 +1512,7 @@ padding-right: 24px;
 
 
 .DijohnApp .swiper {
-  padding-top: 50px;
+  padding-top: 200px;
   padding-bottom: 50px;
   overflow: hidden;
   
@@ -1543,17 +1543,23 @@ padding-right: 24px;
 .containereejohn {
   position: relative;
   text-align: left;
-  color: white;
   padding-top: 50px;
   margin-left: auto;
 margin-right: auto;
   max-width: 600px;
 }
 
+.Notagainjohn {
+  background-image: url("./Images/Wheel.gif") ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:65% 70%;
+}
+
 .Johnspecial .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  
 
   /* Center slide text vertically */
   display: flex;
@@ -1561,16 +1567,22 @@ margin-right: auto;
   align-items: center;
 }
 
+.Johnspecial .mySwiper2 img {
+  animation: rotation 0.3s infinite linear;
+}
+
 .Johnspecial .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 .Johnspecial body {
   background: #000;
   color: #000;
+  
 }
 
 .Johnspecial .swiper {
@@ -1578,21 +1590,28 @@ margin-right: auto;
   height: 100px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .Johnspecial .swiper-slide {
   background-size: cover;
   background-position: center;
+  
 }
 
 .Johnspecial .mySwiper2 {
-  height: 300px;
-  width: 100%;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  
 }
 
 .Johnspecial .mySwiper {
   box-sizing: border-box;
   padding: 10px 0;
+  
 }
 
 .Johnspecial .mySwiper .swiper-slide {
@@ -1610,5 +1629,14 @@ margin-right: auto;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
