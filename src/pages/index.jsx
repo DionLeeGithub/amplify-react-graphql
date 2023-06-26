@@ -52,11 +52,12 @@ const Home = () => {
 				</div>
 				</div>
 
-				<div className="containeree">
+				<div className="containereejohn">
 				<div className="Johnspecial">
-				<John/>
+				<John />
 				</div>
 				</div>
+
 		</div>
 		
 	);
