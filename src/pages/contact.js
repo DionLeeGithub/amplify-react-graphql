@@ -1,9 +1,18 @@
-import React from 'react';
+import React from "react";
+import ReactDOM from "react-dom";
+import "../Style.css"
+import John from "../hooks/johnthumb";
 
 const Contact = () => {
 	return (
 		<div>
-			<h1>Mail us on feedback@geeksforgeeks.org</h1>
+			<div className="Notagainjohn">
+				<div className="containereejohn">
+				<div className="Johnspecial">
+				<John />
+				</div>
+				</div>
+				</div>
 		</div>
 	);
 };

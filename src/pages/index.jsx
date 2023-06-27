@@ -4,7 +4,7 @@ import "../Style.css"
 import MySliderComponent from '../hooks/showsleed';
 import 'swiper/css';
 import JohnApp from "../hooks/johnapp";
-import John from "../hooks/johnthumb";
+import Actuallyproperreviews from "../hooks/reviews";
 
 const Home = () => {
 	
@@ -52,11 +52,12 @@ const Home = () => {
 				</div>
 				</div>
 
-				<div className="Notagainjohn">
-				<div className="containereejohn">
-				<div className="Johnspecial">
-				<John />
-				</div>
+				<h2 className="ReviewTitle">
+			Review Kerenz Kami Gaes
+			</h2>
+				<div className="containereeDiJohn">
+				<div className="containerer">
+			<Actuallyproperreviews />
 				</div>
 				</div>
 
