@@ -19,6 +19,7 @@ export default function Actuallyproperreviews() {
         slidesPerView={3}
         spaceBetween={30}
         freeMode={true}
+        loop={true}
         pagination={{
           clickable: true,
         }}

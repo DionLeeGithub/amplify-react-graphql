@@ -19,6 +19,7 @@ export default function JohnApp() {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
+        loop={true}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
@@ -33,31 +34,31 @@ export default function JohnApp() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={require('../Images/Bocchi.gif')}  />
+        <img src={require('../Images/Tire1.png')}  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        <img src={require('../Images/Tire2.png')}  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        <img src={require('../Images/Tire3.png')}  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        <img src={require('../Images/Tire4.png')}  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={require('../Images/Bocchi.gif')}  />
+        <img src={require('../Images/Tire5.png')}  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+        <img src={require('../Images/Tire6.png')}  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+        <img src={require('../Images/Tire7.png')}  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+        <img src={require('../Images/Tire8.png')}  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={require('../Images/Bocchi.gif')}  />
+        <img src={require('../Images/Tire9.png')}  />
         </SwiperSlide>
       </Swiper>
     </>

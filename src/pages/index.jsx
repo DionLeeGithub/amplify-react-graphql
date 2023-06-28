@@ -33,9 +33,15 @@ const Home = () => {
 			</h2>
 			</div>
 			
-				<div>
+				<div Style="margin-top: 200px;">
 					<MySliderComponent/>
 				</div>
+
+				<div className="LongBoiBrand">
+					<h2 className="ReviewTitle">Penyedia Kami</h2>
+				<img src={require('../Images/Brands.png')} />
+				</div>
+
 				<div className="containereeDiJohnAgain">
 				
 				
@@ -53,10 +59,11 @@ const Home = () => {
 				</div>
 
 				<h2 className="ReviewTitle">
-			Review Kerenz Kami Gaes
+			Portofolio Kami
 			</h2>
+			<div className="containerer">
 				<div className="containereeDiJohn">
-				<div className="containerer">
+				
 			<Actuallyproperreviews />
 				</div>
 				</div>

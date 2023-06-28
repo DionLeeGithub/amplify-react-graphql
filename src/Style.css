@@ -97,7 +97,7 @@ margin-right: auto;
 
 .containeree .VelgShowcase {
   text-align: center;
-  font-size: 56px;
+  font-size: 4vw;
   margin-top: 0;
   display: block;
   padding-left: 220px;
@@ -116,10 +116,9 @@ transform: skew(-30deg);
 -webkit-transform-origin: top;
 -moz-transform-origin: top;
 transform-origin: top;
-width: 60%;
+width: 60vw;
 min-height: 230px;
 padding-top: 35px;
-margin-top: -100px;
 }
 
 fakecolumn {
@@ -415,11 +414,11 @@ Home Slider
 }
 
 .swiper-image-one {
-  background-image: url(https://source.unsplash.com/GXOGGENgHnQ/1600x900);
+  background-image: url(./Images/Front.PNG);
 }
 
 .swiper-image-two {
-  background-image: url(https://source.unsplash.com/Jy6luiLBsrk/1600x900);
+  background-image: url(./Images/Ooga.jpg);
 }
 
 .swiper-image-three {
@@ -1523,14 +1522,22 @@ padding-right: 24px;
   background-size: cover;
   width: 25%;
   height: 25%;
-  background-color: transparent !important; 
-  
+  background-color: transparent !important;
+}
+
+.DijohnApp .swiper-slide-active {
+  width: 30%;
+  height: 30%;
+  margin-right: 2vw;
+  margin-left: 2vw;
 }
 
 
 .swiper-slide img {
   display: block;
   width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .DijohnApp .swiper-slide .swiper-slide-shadow-left {
@@ -1671,10 +1678,14 @@ margin-right: auto;
   z-index: 0;
 }
 
+.containerer .containereeDiJohn  {
+  max-width: 90%;
+}
+
 .containerer .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 30vw;
+  height: 18vw;
   object-fit: cover;
   transition: 0.3s;
   z-index: 2;
@@ -1691,6 +1702,7 @@ margin-right: auto;
   z-index: 1;
     font-size: 1.5vw;
     width: 60%;
+  line-height: 5vh;
 }
 
 .ReviewTitle {
@@ -1706,3 +1718,17 @@ color: white;
 position: relative;
 z-index: 3 ;
 }
+
+.LongBoiBrand {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.LongBoiBrand img {
+  width: 100%;
+}
+
+.containerer .containereeDiJohn .swiper .swiper-wrapper .swiper-slide {
+  margin-right: 4vw !important;
+}
+
