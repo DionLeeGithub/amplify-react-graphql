@@ -1528,6 +1528,7 @@ padding-right: 24px;
 .DijohnApp .swiper-slide-active {
   width: 30%;
   height: 30%;
+  max-height: 330px;
   margin-right: 2vw;
   margin-left: 2vw;
 }
