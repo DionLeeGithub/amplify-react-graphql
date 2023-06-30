@@ -29,7 +29,7 @@ const Home = () => {
 			</div>
 			<div className="containeree VelgShowcaseBgpic">
 				<h2 className="BigTitle VelgShowcase">
-			Slideshow Pelek Satu
+			Portofolio Velg Kami
 			</h2>
 			</div>
 			

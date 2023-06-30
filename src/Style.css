@@ -414,27 +414,43 @@ Home Slider
 }
 
 .swiper-image-one {
-  background-image: url(./Images/Front.PNG);
+  background-image: url(./Images/GR86.jpeg);
 }
 
 .swiper-image-two {
-  background-image: url(./Images/Ooga.jpg);
+  background-image: url(./Images/GR86R.jpeg);
 }
 
 .swiper-image-three {
-  background-image: url(./Images/Bocchi.gif);
+  background-image: url(./Images/Wuling.jpeg);
 }
 
 .swiper-image-four {
-  background-image: url(./Images/PoorBocchi.PNG);
+  background-image: url(./Images/WulingR.jpeg);
 }
 
 .swiper-image-five {
-  background-image: url(https://source.unsplash.com/Jy6luiLBsrk/1600x900);
+  background-image: url(./Images/Fortuner.jpeg);
 }
 
 .swiper-image-six {
-  background-image: url(https://source.unsplash.com/bxCgan0J1Sg/1600x900);
+  background-image: url(./Images/FortunerR.jpeg);
+}
+
+.swiper-image-seven {
+  background-image: url(./Images/Zenix.jpeg);
+}
+
+.swiper-image-eight {
+  background-image: url(./Images/ZenixR.jpeg);
+}
+
+.swiper-image-nine {
+  background-image: url(./Images/Raize.jpeg);
+}
+
+.swiper-image-ten {
+  background-image: url(./Images/RaizeR.jpeg);
 }
 
 .swiper-image {
@@ -496,6 +512,14 @@ h1 span.emphasis {
   transform: translate3d(-20%, 0, 0);
   display: inline-block;
 }
+
+p span.emphasis {
+  font-size: 3vw;
+  font-weight: 700;
+  transition: all .8s cubic-bezier(0.215, 0.61, 0.355, 1) 1.2s;
+  transform: translate3d(-20%, 0, 0);
+}
+
 h1 span:not(.emphasis) {
   font-size: 3.5rem;
 }
@@ -521,8 +545,8 @@ p.paragraph {
   color: #fff;
   width: 100%;
   max-width: 350px;
-  text-align: justify;
-  font-size: 1.2rem;
+  text-align: center;
+  font-size: 2.5vw;
   font-weight: 500;
   opacity: 0;
   transition: all .6s cubic-bezier(0.215, 0.61, 0.355, 1) 1.4s;
@@ -538,6 +562,11 @@ p.paragraph {
 .swiper-slide.swiper-slide-active h1 + p {
   transform: translate3d(0, 0, 0);
   opacity: 1;
+}
+
+.swiper-slide.swiper-slide-active p.paragraph {
+  transform: translate3d(0, 0, 0);
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 1280px) {
@@ -1482,7 +1511,7 @@ overflow: hidden ;
   text-align: center;
 color: white;
 position: relative;
-z-index: 3 ;
+z-index: 3 ; 
 }
 
 .DiJohnText {

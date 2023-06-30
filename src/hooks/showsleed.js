@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
-import Swiper from 'swiper';
+import Swiper, { Autoplay, Navigation, Pagination } from 'swiper';
 import 'swiper/css';
+
+Swiper.use([Navigation, Pagination, Autoplay]);
 
 const MySliderComponent = () => {
   useEffect(() => {
@@ -13,7 +15,10 @@ const MySliderComponent = () => {
       speed: 1000,
       paginationClickable: true,
       parallax: true,
-      autoplay: false,
+      autoplay: {
+        delay: 8000,
+        disableOnInteraction: false,
+      },
       effect: 'slide',
       mousewheel: true
     });
@@ -28,15 +33,13 @@ const MySliderComponent = () => {
           <div className="swiper-slide swiper-slide-one">
             <div className="swiper-image" data-swiper-parallax-y="-20%">
               <div className="swiper-image-inner swiper-image-left swiper-image-one">
-                <h1>A <span className="emphasis">Breath</span>. <br /><span>Of Fresh Air.</span></h1>
-                <p>Chapter I, page XV</p>
+                <h1> <span className="emphasis">Toyota</span> <br /><span>GR86</span></h1>
               </div>
             </div>
             <div className="swiper-image" data-swiper-parallax-y="35%">
               <div className="swiper-image-inner swiper-image-right swiper-image-two">
                 <p className="paragraph">
-                  A Prophet sat in the market-place and told the fortunes of all who cared to engage his services. Suddenly there came running up one who told him that his house had been broken into by thieves, and that they had made off with everything they could lay
-                  hands on.
+                <span className="emphasis">SSW S202</span><br></br>Ring 18"<br></br>PCD 5x100<br></br>8.5 et42<br></br>GMD
                 </p>
               </div>
             </div>
@@ -44,14 +47,13 @@ const MySliderComponent = () => {
           <div className="swiper-slide swiper-slide-two">
             <div className="swiper-image" data-swiper-parallax-y="-20%">
               <div className="swiper-image-inner swiper-image-left swiper-image-three">
-                <h1>The <span className="emphasis">Bocchi</span>. <br /><span>Of Eternal Pain.</span></h1>
-                <p>Bocchi The Rock</p>
+                <h1><span className="emphasis">Wuling</span> <br /><span>Air EV</span></h1>
               </div>
             </div>
             <div className="swiper-image" data-swiper-parallax-y="35%">
               <div className="swiper-image-inner swiper-image-right swiper-image-four">
                 <p className="paragraph">
-                  Me too Bocchi, Me too...
+                <span className="emphasis">JF WORK RS11</span><br></br>Flow Forming<br></br>Ring 15"<br></br>PCD 4x100<br></br> 6.5 et42<br></br>White Polish
                 </p>
               </div>
             </div>
@@ -59,31 +61,40 @@ const MySliderComponent = () => {
           <div className="swiper-slide swiper-slide-three">
             <div className="swiper-image" data-swiper-parallax-y="-20%">
               <div className="swiper-image-inner swiper-image-left swiper-image-five">
-                <h1>A <span className="emphasis">Sense</span>. <br /><span>Of Things to Come.</span></h1>
-                <p>Chapter III, page XI</p>
+                <h1><span className="emphasis">Fortuner</span> <br /><span>GR</span></h1>
               </div>
             </div>
             <div className="swiper-image" data-swiper-parallax-y="35%">
               <div className="swiper-image-inner swiper-image-right swiper-image-six">
                 <p className="paragraph">
-                  Every man carries Two Bags about with him, one in front and one behind, and both are packed full of faults. The Bag in front contains his neighbours’ faults, the one behind his own. Hence it is that men do not see their own faults, but never fail to see
-                  those of others.
-                </p>
+                <span className="emphasis">JF GAZE</span><br></br>Ring 18"<br></br>PCD 6x139,7<br></br> 9 et0<br></br>Request Repaint Gold</p>
               </div>
             </div>
           </div>
           <div className="swiper-slide swiper-slide-four">
             <div className="swiper-image" data-swiper-parallax-y="-20%">
               <div className="swiper-image-inner swiper-image-left swiper-image-seven">
-                <h1>Into the <span className="emphasis">Unknown</span>. <br /><span>Explorations.</span></h1>
-                <p>Chapter IV, page XXII</p>
+                <h1><span className="emphasis">Innova</span><br /><span>Zenix</span></h1>
               </div>
             </div>
             <div className="swiper-image" data-swiper-parallax-y="35%">
               <div className="swiper-image-inner swiper-image-right swiper-image-eight">
                 <p className="paragraph">
-                  Two travellers set out on a journey together. One is an experienced explorer, while the other is venturing into the unknown for the first time. As they delve deeper into the uncharted territory, they discover wonders and face challenges that test their
-                  courage and resilience.
+                <span className="emphasis">JF RPF-1</span><br></br>Flow Forming<br></br>Ring 18"<br></br>9.5 et25<br></br>Black Chrome
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="swiper-slide swiper-slide-five">
+            <div className="swiper-image" data-swiper-parallax-y="-20%">
+              <div className="swiper-image-inner swiper-image-left swiper-image-nine">
+                <h1><span className="emphasis">Raize</span><br /><span></span></h1>
+              </div>
+            </div>
+            <div className="swiper-image" data-swiper-parallax-y="35%">
+              <div className="swiper-image-inner swiper-image-right swiper-image-ten">
+                <p className="paragraph">
+                <span className="emphasis">JF ES Tarmac</span><br></br>Ring 15"<br></br>PCD 4x100 <br></br>6.5 et40<br></br>White
                 </p>
               </div>
             </div>
