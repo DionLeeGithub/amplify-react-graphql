@@ -1474,7 +1474,7 @@ button.swiper-pagination-bullet {
 
 .DijohnApp {
   position: relative;
-  max-width: 60vw;
+  max-width: 80vw;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -1517,13 +1517,13 @@ z-index: 3 ;
 .DiJohnText {
   font-size: 14px;
   font-family:  Helvetica, Arial;
-  height: 150px;
+  height: 100px;
   line-height: 26px;
   margin-top: 10px;
   font-weight: 100;
 color: white;
 position: relative;
-z-index: 3 ;
+z-index: 1;
 }
 
 .containereeDiJohn {
@@ -1540,10 +1540,10 @@ padding-right: 24px;
 
 
 .DijohnApp .swiper {
-  padding-top: 200px;
-  padding-bottom: 50px;
+  padding-top: 2.5vw;
+  padding-bottom: 25vw;
   overflow: hidden;
-  
+  perspective: 900px;
 }
 
 .DijohnApp .swiper-slide {
@@ -1555,13 +1555,18 @@ padding-right: 24px;
 }
 
 .DijohnApp .swiper-slide-active {
-  width: 30%;
-  height: 30%;
-  max-height: 330px;
+  
+  
   margin-right: 2vw;
   margin-left: 2vw;
+  overflow: visible;
 }
 
+.DijohnApp .swiper-slide-active:hover textswipepog {
+  opacity: 0.8;
+  transition: all .8s cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  transform: translate3d(0, 10%, 0);
+}
 
 .swiper-slide img {
   display: block;
@@ -1752,13 +1757,54 @@ z-index: 3 ;
 .LongBoiBrand {
   width: 100%;
   margin-bottom: 10px;
+  background-color:#2a1f30;
 }
 
 .LongBoiBrand img {
   width: 100%;
 }
 
+.LongBoiBrand2 {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color:#2a1f30;
+}
+
+.LongBoiBrand2 img {
+  width: 70vw;
+  position: relative;
+  left: 15vw;
+  right: 15vw;
+}
+
 .containerer .containereeDiJohn .swiper .swiper-wrapper .swiper-slide {
   margin-right: 4vw !important;
 }
 
+textswipepog {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: black;
+  position: fixed;
+  top: 14vw;
+  right: -0.5vw;
+  text-align: left;
+  overflow: visible;
+  line-height: 22px;
+  opacity: 0 ;
+  background-color:azure;
+  height: 10.5vw;
+  width: 20vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  clip-path: polygon(0 0,-moz-calc(100% - 42px) 0,100% 70px,100% 100%,0 100%,0 0);
+  -webkit-clip-path: polygon(0 0,calc(100% - 42px) 0,100% 70px,100% 100%,0 100%,0 0);
+}
+
+
+.Velgname {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 1.5vw;
+}

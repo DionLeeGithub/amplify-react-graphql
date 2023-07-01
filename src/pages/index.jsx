@@ -47,19 +47,24 @@ const Home = () => {
 				
 				<div className="containereeDiJohn">
 			<h2 className="DiJohnTitle">
-			Pelelelelek Lejen
+			Velg Kami
 			</h2>
 			<h2 className="DiJohnText">
-			Vroooom vrooooom ngeeeeeeeeeeng woooooooosh ngeeeeeeeeng skrrrrrttttttt.
+			Velg kami dipilih dengan baik dan teliti hingga hasil yang kami miliki merupakan produk yang berkualitas dan terjamin memuaskan.
 			</h2>
 			</div>
 				<div className="DijohnApp">
 				<JohnApp />
 				</div>
 				</div>
+				
+				<div className="LongBoiBrand2">
+					<h2 className="ReviewTitle">Benefit belanja dengan kami</h2>
+				<img src={require('../Images/Bene.png')} />
+				</div>
 
 				<h2 className="ReviewTitle">
-			Portofolio Kami
+			Reviews
 			</h2>
 			<div className="containerer">
 				<div className="containereeDiJohn">

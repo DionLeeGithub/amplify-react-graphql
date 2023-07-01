@@ -10,7 +10,8 @@ import "swiper/css/pagination";
 import "../Style.css";
 
 // import required modules
-import { FreeMode, Pagination } from "swiper";
+import { FreeMode, Pagination, Autoplay } from "swiper";
+
 
 export default function Actuallyproperreviews() {
   return (
@@ -20,6 +21,10 @@ export default function Actuallyproperreviews() {
         spaceBetween={30}
         freeMode={true}
         loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
