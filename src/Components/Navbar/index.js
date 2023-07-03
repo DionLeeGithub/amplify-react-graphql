@@ -72,6 +72,7 @@ const Navbar = () => {
                 <img src={require('../../Images/Shop.png')} className="BuyPic" alt="logo" />
                         </onhover>
                     </NavLink>
+                    
       </nav>
     )
   }

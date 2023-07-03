@@ -5,11 +5,17 @@ import MySliderComponent from '../hooks/showsleed';
 import 'swiper/css';
 import JohnApp from "../hooks/johnapp";
 import Actuallyproperreviews from "../hooks/reviews";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
 	
 	return (
+		
 		<div>
+			<Helmet>
+			<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+			</Helmet>
+<div class="elfsight-app-b7496915-1930-4894-9868-602c743b26c6"></div>
 			
 			<div>
 			<div>

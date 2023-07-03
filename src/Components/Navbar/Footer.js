@@ -72,6 +72,8 @@ return (
 		</Column>
 		</Row>
 	<ul className="FooterText" href="#">©2023 ALLYOURWHEELS. All Rights Reserved.</ul>
+	<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-b7496915-1930-4894-9868-602c743b26c6"></div>
 	</Container>
 	
 	</Box>
