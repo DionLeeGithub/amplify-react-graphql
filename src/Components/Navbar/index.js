@@ -27,7 +27,7 @@ const Navbar = () => {
             <ul>
               <li>
               
-                    <NavLink to="/about" activeStyle>
+                    <NavLink to="/showcase" activeStyle>
                         <onhover>
                         Showcase
                         </onhover>
