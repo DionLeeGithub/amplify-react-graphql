@@ -32,34 +32,22 @@ export default function App() {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <img src={require('../Images/Veleg.png')} />
+        <img src={require('../Images/Tire2.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={require('../Images/Velegel.png')} />
+        <img src={require('../Images/Tire3.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={require('../Images/Bocchi.gif')} />
+        <img src={require('../Images/Tire5.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        <img src={require('../Images/Tire6.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        <img src={require('../Images/Tire7.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+        <img src={require('../Images/Tire8.png')} />
         </SwiperSlide>
       </Swiper>
       <Swiper
@@ -73,34 +61,22 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={require('../Images/Velg One.png')} />
+        <img src={require('../Images/Tire2.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={require('../Images/Velg Two.png')} />
+        <img src={require('../Images/Tire3.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={require('../Images/Bocchi.gif')} />
+        <img src={require('../Images/Tire5.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        <img src={require('../Images/Tire6.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        <img src={require('../Images/Tire7.png')} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+        <img src={require('../Images/Tire8.png')} />
         </SwiperSlide>
       </Swiper>
     </>

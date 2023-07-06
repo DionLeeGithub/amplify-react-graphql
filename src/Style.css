@@ -1601,10 +1601,11 @@ margin-right: auto;
 }
 
 .Notagainjohn {
-  background-image: url("./Images/Wheel.gif") ;
+  background-image: url("./Images/Wheee.gif") ;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size:65% 70%;
+  background-position: 11.5vw 0vw;
+  background-size:80% 80%;
+  margin-bottom: 200px;
 }
 
 .Johnspecial .swiper-slide {
@@ -1619,7 +1620,7 @@ margin-right: auto;
 }
 
 .Johnspecial .mySwiper2 img {
-  animation: rotation 0.3s infinite linear;
+  animation: rotation 0.2s infinite linear;
 }
 
 .Johnspecial .swiper-slide img {
