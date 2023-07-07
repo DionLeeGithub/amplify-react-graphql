@@ -284,7 +284,7 @@ margin-top: 70px
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right bottom, #2a1f30 50%, #383d44 50%);
+  background-image: url(./Images/Star.gif);
 }
 
 .container {
@@ -394,7 +394,6 @@ margin-right: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right bottom, #2a1f30 50%, #383d44 50%);
 }
 
 /* ====================================
@@ -1603,9 +1602,28 @@ margin-right: auto;
 .Notagainjohn {
   background-image: url("./Images/Wheee.gif") ;
   background-repeat: no-repeat;
-  background-position: 11.5vw 0vw;
-  background-size:80% 80%;
-  margin-bottom: 200px;
+  background-position: 11.5vw 1vw;
+  background-size:80% 100%;
+  margin-top: 5vw;
+}
+
+.RandomPic {
+  background: gray;
+  color:white;
+  padding: 20px;
+  
+  opacity:0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  animation: smooth-appear 1s ease forwards;
+}
+
+@keyframes smooth-appear {
+  to{
+    bottom: 20px;
+    opacity:1;
+  }
 }
 
 .Johnspecial .swiper-slide {
@@ -1684,6 +1702,7 @@ margin-right: auto;
   
 }
 
+
 @keyframes rotation {
   from {
     transform: rotate(359deg);
@@ -1735,7 +1754,6 @@ margin-right: auto;
   transition: 0.3s;
   z-index: 2;
   padding-bottom: 6vh;
-  background-color:#383d44;
 }
 
 .ReviewText {
@@ -1767,7 +1785,6 @@ z-index: 3 ;
 .LongBoiBrand {
   width: 100%;
   margin-bottom: 10px;
-  background-color:#2a1f30;
 }
 
 .LongBoiBrand img {
@@ -1777,7 +1794,6 @@ z-index: 3 ;
 .LongBoiBrand2 {
   width: 100%;
   margin-bottom: 10px;
-  background-color:#2a1f30;
 }
 
 .LongBoiBrand2 img {
@@ -1785,6 +1801,7 @@ z-index: 3 ;
   position: relative;
   left: 15vw;
   right: 15vw;
+  opacity: 0.8;
 }
 
 .containerer .containereeDiJohn .swiper .swiper-wrapper .swiper-slide {

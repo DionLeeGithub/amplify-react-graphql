@@ -6,6 +6,23 @@ import 'swiper/css';
 import JohnApp from "../hooks/johnapp";
 import Actuallyproperreviews from "../hooks/reviews";
 import { Helmet } from "react-helmet";
+import "../transitions.css";
+
+function reveal() {
+	var reveals = document.querySelectorAll(".reveal");
+  
+	for (var i = 0; i < reveals.length; i++) {
+	  var windowHeight = window.innerHeight;
+	  var elementTop = reveals[i].getBoundingClientRect().top;
+	  var elementVisible = 150;
+  
+	  if (elementTop < windowHeight - elementVisible) {
+		reveals[i].classList.add("active");
+	  } else {
+		reveals[i].classList.remove("active");
+	  }
+	}
+  }
 
 const Home = () => {
 	
@@ -43,7 +60,7 @@ const Home = () => {
 					<MySliderComponent/>
 				</div>
 
-				<div className="LongBoiBrand">
+				<div className="LongBoiBrand reveal fade-left">
 					<h2 className="ReviewTitle">Penyedia Kami</h2>
 				<img src={require('../Images/Brands.png')} />
 				</div>
@@ -51,7 +68,7 @@ const Home = () => {
 				<div className="containereeDiJohnAgain">
 				
 				
-				<div className="containereeDiJohn">
+				<div className="containereeDiJohn reveal fade-right">
 			<h2 className="DiJohnTitle">
 			Velg Kami
 			</h2>
@@ -59,20 +76,20 @@ const Home = () => {
 			Velg kami dipilih dengan baik dan teliti hingga hasil yang kami miliki merupakan produk yang berkualitas dan terjamin memuaskan.
 			</h2>
 			</div>
-				<div className="DijohnApp">
+				<div className="DijohnApp reveal fade-bottom">
 				<JohnApp />
 				</div>
 				</div>
 				
-				<div className="LongBoiBrand2">
+				<div className="LongBoiBrand2 reveal fade-right">
 					<h2 className="ReviewTitle">Benefit belanja dengan kami</h2>
 				<img src={require('../Images/Bene.png')} />
 				</div>
 
-				<h2 className="ReviewTitle">
+				<h2 className="ReviewTitle reveal fade-bottom">
 			Reviews
 			</h2>
-			<div className="containerer">
+			<div className="containerer reveal fade-bottom">
 				<div className="containereeDiJohn">
 				
 			<Actuallyproperreviews />

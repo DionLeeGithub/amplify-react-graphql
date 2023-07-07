@@ -50,35 +50,6 @@ export default function App() {
         <img src={require('../Images/Tire8.png')} />
         </SwiperSlide>
       </Swiper>
-      <Swiper
-        onSwiper={setThumbsSwiper}
-        loop={true}
-        spaceBetween={10}
-        slidesPerView={4}
-        freeMode={true}
-        watchSlidesProgress={true}
-        modules={[FreeMode, Navigation, Thumbs]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-        <img src={require('../Images/Tire2.png')} />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={require('../Images/Tire3.png')} />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={require('../Images/Tire5.png')} />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={require('../Images/Tire6.png')} />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={require('../Images/Tire7.png')} />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={require('../Images/Tire8.png')} />
-        </SwiperSlide>
-      </Swiper>
     </>
   );
 }
